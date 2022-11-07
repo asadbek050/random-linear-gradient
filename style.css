@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    min-height:100vh;
+    padding: 10px;
+}
+
+.card{
+    width: 400px;
+    min-height:200px;
+    padding: 20px;
+
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50% , -50%);
+}
+
+.btn-gradient{
+    width: 100%;
+    min-width: none;
+    border-radius: 10px;
+    padding: 10px;
+    
+    text-align: center;
+    user-select: none;
+    cursor:pointer;
+    
+    background-color: #5837D0;
+    color: #fff;
+
+}
+
+.btn-gradient p{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0;
+   
+}
+
+.btn-gradient small{
+    font-size: 16px;
+    padding: 10px 0;
+    font-family: sans-serif;
+}
+
+.copy{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.copy p::selection{
+    background-color: #5837D0;
+    color: #fff;
+}
